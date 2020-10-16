@@ -1,0 +1,380 @@
+.navbar{
+    color:black;
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	margin-left: -10px;
+	margin-top: -10px;
+
+}
+
+.navbar-logo{
+	width: 30%;
+	height: 100%;
+    float: left;}
+
+.navbar-logo p{
+	color:#1c1c1c;
+    font-family: 'Montserrat Subrayada', sans-serif;	font-size: 24px;
+	font-weight: 600;
+	margin-top: 13px;
+	cursor: pointer;
+	margin-left: 40px;
+
+}
+
+.navbar-right-content{
+	float: left;
+	width:50%;
+	cursor: pointer;
+	
+}
+.navbar-right-content a{
+	text-decoration: none;
+	color:black;
+}
+
+.navbar-right-content p{
+	float: left;
+	font-weight: 100;
+	margin-left: 45px;
+	margin-top: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+} 
+
+.highlight p{
+	color: blue;
+	font-weight: 800;
+}
+
+.navbar-right-content p:hover{
+	font-weight: 800;
+}
+
+#home{
+	background-color: yellow;
+	padding: 5px;
+	margin-right: 40px;
+	margin-top: 15px;
+	width:8px;
+}
+
+.navbar-search-bar{
+	width: 10%;
+	float: left;
+}
+.navbar-search-bar img{
+	font-weight: 100;
+	margin-left: 35px;
+	margin-top: 20px;
+    cursor: pointer;
+	}
+
+.blog-section{
+	width: 100%;
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+
+.blog-div{
+	width: 400px;
+	height: 420px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	cursor: pointer;
+}
+
+.blog-image{
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+.dark-mode .blog-image{
+	border:solid white 1px;
+
+}
+.blog-image img{
+	width: 100%;
+	height: 200px;
+}
+.blog-name{
+	float: left;
+	width:100%;
+	height:auto;
+	border:solid black 1px;
+}
+
+.blog-name h1{
+	width: 95%;
+	margin-top: 20px;
+	float: left;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 20px;
+}
+.blog-name p{
+	margin-left: 20px;
+	width: 100%;
+}
+.blog-name h9{
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+.blog-date{
+	float: left;
+	width: 33.4%;
+	border-left:solid black 1px;
+	border-bottom: solid black 1px;
+
+
+}
+.dark-mode .blog-name{
+	border:solid white 1px;
+}
+
+.dark-mode .blog-date{
+		border-left:solid white 1px;
+	border-bottom: solid white 1px;
+}
+.dark-mode .blog-date-extra{
+	border-right: solid white 1px;
+		border-left:solid white 1px;
+	border-bottom: solid white 1px;
+}
+
+
+.blog-date img{
+	width: 20px;
+}
+.blog-date-extra img{
+	width: 20px
+}
+#more{
+	font-weight: 800;
+	cursor: pointer;
+}
+.blog-date-extra{
+	float: left;
+	width: 33.2%;
+	border-right:solid black 1px;
+	border-left:solid black 1px;
+	border-bottom: solid black 1px;
+	text-align: center;
+
+}
+.blog-date-extra p{
+	margin-top: 10px;
+	text-align: center;
+}
+.blog-date p{
+	margin-top: 10px;
+	text-align: center;
+}
+.blog-date:hover{
+	font-weight: 800;
+}
+.blog-date-extra:hover{
+	font-weight: 800;
+}
+}
+ 
+.more{
+	width: 50%;
+	float: left;
+}
+.more p{
+	margin-top: 5px;
+	float: right;
+	background-color: yellow;
+	padding: 4px;
+	cursor: pointer;
+}
+
+.blog-content{
+    color:white;
+	width:100%;
+	margin-top: 40px;
+	float: left;
+	padding: 10px;
+    height: 70px;
+    background-color:black;
+
+}
+
+
+.dark-mode .blog-content p{
+color: white;
+	
+}
+.blog-content p{
+	color:white;
+    float: left;
+	font-weight: 600;
+	margin-top: 13px;
+	cursor: pointer;
+	margin-left: 40px;
+	border-right: solid black 1px;
+	padding: 5px;
+}
+
+
+.dark-mode .more p{
+	color: black;
+}
+
+.more-blog{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.dark-mode .keywords button{
+	background-color: white;
+	color: black;
+}
+
+/*
+------------------------------------------------------------------------------------------------------
+
+ -------------------------------------------jobs-----------------------------------------------------
+
+ ------------------------------------------------------------------------------------------------------
+
+
+
+*/ 
+
+
+
+.vacancies{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	height:auto;
+}
+
+.vacancies .left-corner{
+	width: 100%;
+	height: 100%;
+	margin-left:0px;
+	float: left;
+}
+.vacancies .left-corner p{
+	cursor: pointer;
+	font-size: 22px;
+	margin-top: 30px;
+	margin-left: 70px;
+	
+	
+}
+.dark-mode .jobs-div{
+	background-color: #1a1a1a;
+}
+.jobs-section{
+	margin-left:60px;
+}
+.jobs-div{
+	cursor: pointer;
+	margin-left: 10px;
+	width: 280px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	background-color:#FFF0F5;
+}
+
+.vacancies .middle-corner{
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-color:black;
+}
+.vacancies .right-corner{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: white
+}
+.keywords{
+	height: 100px;
+}
+.keywords h3{
+	margin-left: 160px;
+}
+.keywords input{
+	width: 400px;
+	height: 40px;
+	margin-left: 10px;
+	border:none;
+	border:solid black 1px;
+}
+.job-search{
+	margin-left: 150px;
+}
+.job-search button{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border:none;
+	color: white;
+	cursor: pointer;
+
+
+}
+.keywords input::placeholder{
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin-left: 10px;
+
+}
+
+.keywords p{
+	float: left;
+	margin-left: 35px;
+	padding: 5px;
+	cursor: pointer;
+	margin-top: -10px;
+}
+
+/*
+--------------------------------------- jobs alert --------------------------------------------*/
+
+
+.jobs-alert{
+	width: 100%;
+	height:auto;
+	float: left;
+	margin-top: 80px;
+}
+.job-alert-div{
+	width: 30%;
+	float: left;
+	height: 500px;
+	border:solid black 4px;
+	margin-left: 35px;
+	margin-top: 40px;
+
+}
+.dark-mode .job-alert-div{
+	border:solid #11111a 4px;
+}
+.job-alert-div h1{
+	text-align: center;
+	font-size: 24px;
+	padding: 12px;
+	margin-top: -10px;
+	color:white;
+	background-color:#11111a;
+}
+.job-alert-div li{
+    margin-left: 18px;
+    float: left;
+    text-decoration: none;
+    width: 100%;
+}
